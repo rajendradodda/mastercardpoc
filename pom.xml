@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mastercard.poc</groupId>
-	<artifactId>app</artifactId>
+	<artifactId>oracleapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>mastercarddemo</name>
+	<name>mastercardoracleapp</name>
 	<description>master card poc for oracle db access</description>
 
 	<parent>
