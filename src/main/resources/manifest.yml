@@ -3,3 +3,4 @@ applications:
   - name: mastercardoraclepoc1
     path: ../../../target/oracleapp-0.0.1-SNAPSHOT.jar
     instances: 3
+    memory: 2G
