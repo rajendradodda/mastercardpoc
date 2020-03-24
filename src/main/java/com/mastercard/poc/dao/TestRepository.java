@@ -15,6 +15,7 @@ public interface TestRepository extends CrudRepository<TestEntity, Long> {
 
     List<TestEntity> findAll();
 
-    @Query(value = "select * from mcdbuser.mctesttbl  where rownum >= :start and rownum <= :end", nativeQuery = true)
+    //@Query(value = "select * from mcdbuser.mctesttbl  where rownum >= :start and rownum <= :end", nativeQuery = true)
+    @Query(value = "select * from mcdbuser.mctesttbl  where PARTITIONID >= :start and PARTITIONID < :end", nativeQuery = true)
     List<TestEntity> findRecordsInRange(@Param("start") int start, @Param("end") int end);
 }
