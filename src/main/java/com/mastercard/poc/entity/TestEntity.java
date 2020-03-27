@@ -22,7 +22,7 @@ public class TestEntity {
 	@Column(name = "FIELD5")
 	Long field5;
 	@Column(name = "FIELD6")
-	String field6;
+	BigDecimal field6;
 	@Column(name = "CREATE_TIMESTAMP")
 	BigDecimal createTimeStamp;
 	@Column(name = "LAST4DIGITS")
@@ -68,11 +68,11 @@ public class TestEntity {
 		this.field5 = field5;
 	}
 
-	public String getField6() {
+	public BigDecimal getField6() {
 		return field6;
 	}
 
-	public void setField6(String field6) {
+	public void setField6(BigDecimal field6) {
 		this.field6 = field6;
 	}
 
